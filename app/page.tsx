@@ -65,8 +65,9 @@ export default function LandingPage() {
         {/* Hero Section */}
         <section className="pt-32 pb-20 px-6 animate-fade-in relative overflow-hidden">
           {/* Currency symbols background */}
-          <div className="absolute top-[180px] right-[280px] text-7xl font-bold text-white/80 select-none pointer-events-none">$</div>
-          <div className="absolute top-[180px] right-[200px] text-7xl font-bold text-white/80 select-none pointer-events-none">€</div>
+          <div className="absolute top-[220px] right-[320px] text-7xl font-bold text-white/80 select-none pointer-events-none">$</div>
+          <div className="absolute top-[220px] right-[240px] text-7xl font-bold text-white/80 select-none pointer-events-none">€</div>
+          <div className="absolute top-[220px] right-[160px] text-7xl font-bold text-white/80 select-none pointer-events-none">£</div>
           
           <div className="max-w-full mx-auto px-4 relative z-10">
             <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 leading-[1.1] tracking-tight animate-slide-up max-w-7xl mx-auto">
