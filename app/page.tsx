@@ -278,7 +278,7 @@ export default function LandingPage() {
         <footer className="bg-black text-gray-400 py-12 px-6 border-t border-gray-800">
           <div className="max-w-7xl mx-auto">
             {/* Main Footer Content */}
-            <div className="grid md:grid-cols-2 gap-8 mb-6">
+            <div className="grid md:grid-cols-3 gap-12 mb-6">
               {/* Left: License Info */}
               <div className="text-sm space-y-1.5">
                 <p className="text-gray-400 font-light">
@@ -288,9 +288,9 @@ export default function LandingPage() {
                 <p className="text-gray-400 font-light">MSB License Number: M23877619</p>
               </div>
 
-              {/* Right: Legal Documents */}
-              <div className="text-sm flex justify-end pr-16">
-                <ul className="space-y-1.5 text-left pl-8">
+              {/* Center: Legal Documents */}
+              <div className="text-sm">
+                <ul className="space-y-1.5 text-left">
                   <li>
                     <a href="/legal/terms" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-light">
                       Terms of Service
@@ -308,10 +308,13 @@ export default function LandingPage() {
                   </li>
                 </ul>
               </div>
+
+              {/* Right: Empty for balance */}
+              <div></div>
             </div>
 
             {/* Bottom row: Copyright and Contact */}
-            <div className="flex flex-col md:flex-row md:items-start md:justify-between pt-6 border-t border-gray-800 gap-3">
+            <div className="flex flex-col md:flex-row md:items-start md:justify-between pt-4 border-t border-gray-800 gap-3">
               <div className="text-xs text-gray-500 font-light">
                 © 2026 BUYEASY. All rights reserved.
               </div>
