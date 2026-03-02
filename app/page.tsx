@@ -290,7 +290,7 @@ export default function LandingPage() {
 
               {/* Right: Legal Documents */}
               <div className="text-sm flex justify-end pr-16">
-                <ul className="space-y-1.5 text-left">
+                <ul className="space-y-1.5 text-left pl-8">
                   <li>
                     <a href="/legal/terms" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-light">
                       Terms of Service
