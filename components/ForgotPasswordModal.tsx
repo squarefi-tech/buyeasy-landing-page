@@ -77,12 +77,6 @@ export function ForgotPasswordModal({ isOpen, onClose, onBack }: ForgotPasswordM
               >
                 Send Recovery Code
               </button>
-
-              <div className="text-center pt-2">
-                <a href="#contact" onClick={onClose} className="text-sm text-gray-400 hover:text-blue-400 transition-colors duration-300 font-light">
-                  Contact Support
-                </a>
-              </div>
             </form>
           </>
         ) : (
