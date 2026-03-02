@@ -238,7 +238,7 @@ export default function LandingPage() {
                   </div>
 
                   {/* Card 2 - AML/KYC Compliance */}
-                  <div className="relative bg-gradient-to-br from-blue-400/10 to-blue-600/10 backdrop-blur-sm rounded-[2.5rem] p-6 ml-6 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-500 hover:scale-[1.02] group">
+                  <div className="relative bg-gradient-to-br from-blue-400/10 to-blue-600/10 backdrop-blur-sm rounded-[2.5rem] p-6 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-500 hover:scale-[1.02] group">
                     <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                       AML/KYC Compliance
                     </h3>
@@ -248,7 +248,7 @@ export default function LandingPage() {
                   </div>
 
                   {/* Card 3 - Segregated Accounts */}
-                  <div className="relative bg-gradient-to-br from-blue-400/10 to-blue-600/10 backdrop-blur-sm rounded-[2.5rem] p-6 ml-12 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-500 hover:scale-[1.02] group">
+                  <div className="relative bg-gradient-to-br from-blue-400/10 to-blue-600/10 backdrop-blur-sm rounded-[2.5rem] p-6 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-500 hover:scale-[1.02] group">
                     <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                       Segregated Accounts
                     </h3>
