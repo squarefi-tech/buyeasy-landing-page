@@ -41,7 +41,7 @@ export function CookieConsent() {
             <p className="text-sm text-gray-600 mb-4 leading-relaxed">
               We use cookies to enhance your browsing experience, analyze site traffic, and provide 
               personalized content. By clicking "Accept All", you consent to our use of cookies.{' '}
-              <Link href="/v1/cookie-policy" className="text-gray-900 underline hover:no-underline">
+              <Link href="/legal/cookies" className="text-gray-900 underline hover:no-underline">
                 Learn more
               </Link>
             </p>
