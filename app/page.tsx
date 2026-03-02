@@ -64,13 +64,13 @@ export default function LandingPage() {
 
         {/* Hero Section */}
         <section className="pt-24 pb-16 px-6 animate-fade-in relative overflow-hidden">
-          <div className="max-w-full mx-auto px-4 relative z-10">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-[1.1] tracking-tight animate-slide-up max-w-6xl mx-auto">
+          <div className="max-w-6xl mx-auto px-4 relative z-10">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-[1.1] tracking-tight animate-slide-up text-left">
               Your trusted global partner<br />
               <span className="text-blue-400">for FX, payments &</span><br />
               money remittance
             </h1>
-            <p className="text-sm md:text-base text-gray-300 max-w-5xl mx-auto mb-8 leading-relaxed font-light animate-slide-up text-justify" style={{animationDelay: '0.2s'}}>
+            <p className="text-sm md:text-base text-gray-300 max-w-5xl mb-8 leading-relaxed font-light animate-slide-up text-left" style={{animationDelay: '0.2s'}}>
               BUYEASY is a financial services provider specializing in foreign exchange, 
               multi-currency accounts, and international money transfers. We deliver speed, security, 
               and full regulatory compliance for your business payments. Our platform enables businesses 
@@ -79,7 +79,7 @@ export default function LandingPage() {
               making your first international payment or managing complex multi-currency operations, 
               BUYEASY provides the tools and expertise you need to succeed in the global marketplace.
             </p>
-            <div className="max-w-6xl mx-auto">
+            <div>
               <a
                 href="#contact"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-blue-500 text-white font-semibold rounded-full hover:bg-blue-400 transition-all duration-300 text-sm hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50 animate-slide-up group"
