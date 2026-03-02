@@ -289,7 +289,7 @@ export default function LandingPage() {
               </div>
 
               {/* Center: Legal Documents */}
-              <div className="text-sm">
+              <div className="text-sm pt-6">
                 <ul className="space-y-1.5 text-left">
                   <li>
                     <a href="/legal/terms" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-light">
