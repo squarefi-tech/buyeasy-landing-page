@@ -121,7 +121,7 @@ export default function LandingPage() {
             <div className="grid md:grid-cols-2 gap-8">
               {/* FX */}
               <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
-                <div className="mb-3 transform group-hover:scale-110 transition-transform duration-300">
+                <div className="mb-3">
                   <TrendingUp className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
@@ -139,7 +139,7 @@ export default function LandingPage() {
 
               {/* Multi-Currency Accounts */}
               <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
-                <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
+                <div className="mb-4">
                   <Wallet className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
@@ -158,7 +158,7 @@ export default function LandingPage() {
 
               {/* Send & Receive Payments */}
               <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
-                <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
+                <div className="mb-4">
                   <Send className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
@@ -176,7 +176,7 @@ export default function LandingPage() {
 
               {/* International Money Transfers */}
               <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
-                <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
+                <div className="mb-4">
                   <Globe2 className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
@@ -204,7 +204,7 @@ export default function LandingPage() {
             <div className="grid md:grid-cols-2 gap-16">
               {/* Speed Matters */}
               <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
-                <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
+                <div className="mb-4">
                   <Zap className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
@@ -224,7 +224,7 @@ export default function LandingPage() {
 
               {/* Unmatched Security */}
               <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
-                <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
+                <div className="mb-4">
                   <Shield className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
