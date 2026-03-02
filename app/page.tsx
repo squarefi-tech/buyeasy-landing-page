@@ -63,14 +63,14 @@ export default function LandingPage() {
         </nav>
 
         {/* Hero Section */}
-        <section className="pt-32 pb-20 px-6 animate-fade-in relative overflow-hidden">
+        <section className="pt-24 pb-16 px-6 animate-fade-in relative overflow-hidden">
           <div className="max-w-full mx-auto px-4 relative z-10">
-            <h1 className="text-6xl md:text-8xl font-bold text-white mb-8 leading-[1.1] tracking-tight animate-slide-up max-w-7xl mx-auto">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-[1.1] tracking-tight animate-slide-up max-w-6xl mx-auto">
               Your trusted global partner<br />
               <span className="text-blue-400">for FX, payments &</span><br />
               money remittance
             </h1>
-            <p className="text-base md:text-lg text-gray-300 max-w-7xl mx-auto mb-10 leading-relaxed font-light animate-slide-up text-justify" style={{animationDelay: '0.2s'}}>
+            <p className="text-sm md:text-base text-gray-300 max-w-5xl mx-auto mb-8 leading-relaxed font-light animate-slide-up text-justify" style={{animationDelay: '0.2s'}}>
               BUYEASY is a financial services provider specializing in foreign exchange, 
               multi-currency accounts, and international money transfers. We deliver speed, security, 
               and full regulatory compliance for your business payments. Our platform enables businesses 
@@ -79,10 +79,10 @@ export default function LandingPage() {
               making your first international payment or managing complex multi-currency operations, 
               BUYEASY provides the tools and expertise you need to succeed in the global marketplace.
             </p>
-            <div className="max-w-7xl mx-auto">
+            <div className="max-w-6xl mx-auto">
               <a
                 href="#contact"
-                className="inline-flex items-center gap-3 px-8 py-4 bg-blue-500 text-white font-semibold rounded-full hover:bg-blue-400 transition-all duration-300 text-sm hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50 animate-slide-up group"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-500 text-white font-semibold rounded-full hover:bg-blue-400 transition-all duration-300 text-sm hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50 animate-slide-up group"
                 style={{animationDelay: '0.4s'}}
               >
                 Request a 15-Minute Demo
@@ -93,19 +93,19 @@ export default function LandingPage() {
         </section>
 
         {/* Stats Section */}
-        <section className="py-20 px-6 border-y border-gray-800">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-16 text-center">
+        <section className="py-12 px-6 border-y border-gray-800">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-12 text-center">
               <div className="hover:scale-110 transition-transform duration-300">
-                <div className="text-5xl font-bold text-blue-400 mb-3">30+</div>
+                <div className="text-4xl font-bold text-blue-400 mb-2">30+</div>
                 <div className="text-sm text-gray-400 font-light">Currency Pairs</div>
               </div>
               <div className="hover:scale-110 transition-transform duration-300">
-                <div className="text-5xl font-bold text-blue-400 mb-3">180+</div>
+                <div className="text-4xl font-bold text-blue-400 mb-2">180+</div>
                 <div className="text-sm text-gray-400 font-light">Countries Supported</div>
               </div>
               <div className="hover:scale-110 transition-transform duration-300">
-                <div className="text-5xl font-bold text-blue-400 mb-3">24/7</div>
+                <div className="text-4xl font-bold text-blue-400 mb-2">24/7</div>
                 <div className="text-sm text-gray-400 font-light">Global Support</div>
               </div>
             </div>
@@ -113,18 +113,18 @@ export default function LandingPage() {
         </section>
 
         {/* Solutions Section */}
-        <section id="solutions" className="py-32 px-6 bg-black">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-4xl md:text-6xl font-bold text-white mb-20 tracking-tight">
+        <section id="solutions" className="py-20 px-6 bg-black">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 tracking-tight">
               Our <span className="text-blue-400">Solutions</span>
             </h2>
-            <div className="grid md:grid-cols-2 gap-12">
+            <div className="grid md:grid-cols-2 gap-8">
               {/* FX */}
-              <div className="group p-8 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
-                <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                  <TrendingUp className="text-blue-400" size={32} strokeWidth={1.5} />
+              <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
+                <div className="mb-3 transform group-hover:scale-110 transition-transform duration-300">
+                  <TrendingUp className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   Foreign Exchange
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
@@ -138,11 +138,11 @@ export default function LandingPage() {
               </div>
 
               {/* Multi-Currency Accounts */}
-              <div className="group p-8 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
+              <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                  <Wallet className="text-blue-400" size={32} strokeWidth={1.5} />
+                  <Wallet className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   Multi-Currency Accounts
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
@@ -157,11 +157,11 @@ export default function LandingPage() {
               </div>
 
               {/* Send & Receive Payments */}
-              <div className="group p-8 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
+              <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                  <Send className="text-blue-400" size={32} strokeWidth={1.5} />
+                  <Send className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   Send & Receive Payments
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
@@ -175,11 +175,11 @@ export default function LandingPage() {
               </div>
 
               {/* International Money Transfers */}
-              <div className="group p-8 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
+              <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                  <Globe2 className="text-blue-400" size={32} strokeWidth={1.5} />
+                  <Globe2 className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   International Money Transfers
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
@@ -196,18 +196,18 @@ export default function LandingPage() {
         </section>
 
         {/* Why BUYEASY Section */}
-        <section id="why-buyeasy" className="py-32 px-6 bg-black border-t border-gray-800">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-4xl md:text-6xl font-bold text-white mb-20 tracking-tight">
+        <section id="why-buyeasy" className="py-20 px-6 bg-black border-t border-gray-800">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 tracking-tight">
               Why <span className="text-blue-400">BUYEASY</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-16">
               {/* Speed Matters */}
-              <div className="group p-8 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
+              <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                  <Zap className="text-blue-400" size={32} strokeWidth={1.5} />
+                  <Zap className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   Speed Matters
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
@@ -223,11 +223,11 @@ export default function LandingPage() {
               </div>
 
               {/* Unmatched Security */}
-              <div className="group p-8 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
+              <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                  <Shield className="text-blue-400" size={32} strokeWidth={1.5} />
+                  <Shield className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   Unmatched Security
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
@@ -246,15 +246,15 @@ export default function LandingPage() {
         </section>
 
         {/* Compliance & Trust Section */}
-        <section className="py-32 px-6 bg-black border-t border-gray-800">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-20 items-start">
+        <section className="py-20 px-6 bg-black border-t border-gray-800">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Left: Title */}
-              <div className="lg:sticky lg:top-32">
-                <h2 className="text-5xl md:text-7xl font-bold text-white leading-[1.1] tracking-tight">
+              <div className="lg:sticky lg:top-24">
+                <h2 className="text-3xl md:text-4xl font-bold text-white leading-[1.1] tracking-tight">
                   <span className="text-blue-400">Compliance</span><br />& Trust
                 </h2>
-                <p className="text-base text-gray-400 mt-8 leading-relaxed font-light text-justify">
+                <p className="text-sm text-gray-400 mt-6 leading-relaxed font-light text-justify">
                   Our commitment to regulatory compliance and transparency sets us apart in the financial 
                   services industry. We maintain the highest standards of corporate governance and work 
                   closely with regulators to ensure full compliance with all applicable laws and regulations.
@@ -269,7 +269,7 @@ export default function LandingPage() {
                 
                 <div className="relative space-y-6">
                   {/* Card 1 - Regulated Entity */}
-                  <div className="relative bg-gradient-to-br from-blue-400/10 to-blue-600/10 backdrop-blur-sm rounded-[2.5rem] p-10 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-500 hover:scale-[1.02] group">
+                  <div className="relative bg-gradient-to-br from-blue-400/10 to-blue-600/10 backdrop-blur-sm rounded-[2.5rem] p-6 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-500 hover:scale-[1.02] group">
                     <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                       Regulated Entity
                     </h3>
@@ -282,7 +282,7 @@ export default function LandingPage() {
                   </div>
 
                   {/* Card 2 - AML/KYC Compliance */}
-                  <div className="relative bg-gradient-to-br from-blue-400/10 to-blue-600/10 backdrop-blur-sm rounded-[2.5rem] p-10 ml-8 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-500 hover:scale-[1.02] group">
+                  <div className="relative bg-gradient-to-br from-blue-400/10 to-blue-600/10 backdrop-blur-sm rounded-[2.5rem] p-6 ml-6 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-500 hover:scale-[1.02] group">
                     <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                       AML/KYC Compliance
                     </h3>
@@ -295,7 +295,7 @@ export default function LandingPage() {
                   </div>
 
                   {/* Card 3 - Segregated Accounts */}
-                  <div className="relative bg-gradient-to-br from-blue-400/10 to-blue-600/10 backdrop-blur-sm rounded-[2.5rem] p-10 ml-16 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-500 hover:scale-[1.02] group">
+                  <div className="relative bg-gradient-to-br from-blue-400/10 to-blue-600/10 backdrop-blur-sm rounded-[2.5rem] p-6 ml-12 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-500 hover:scale-[1.02] group">
                     <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                       Segregated Accounts
                     </h3>
@@ -313,9 +313,9 @@ export default function LandingPage() {
         </section>
 
         {/* CTA Section */}
-        <section id="contact" className="py-32 px-6 bg-black border-t border-gray-800">
-          <div className="max-w-5xl mx-auto text-center mb-16">
-            <h2 className="text-4xl md:text-6xl font-bold text-white mb-8 tracking-tight">
+        <section id="contact" className="py-20 px-6 bg-black border-t border-gray-800">
+          <div className="max-w-4xl mx-auto text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 tracking-tight">
               Ready to streamline your<br /><span className="text-blue-400">global payments?</span>
             </h2>
             <p className="text-base text-gray-400 mb-8 font-light leading-relaxed max-w-3xl mx-auto text-justify">
