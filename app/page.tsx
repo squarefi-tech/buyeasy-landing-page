@@ -289,18 +289,10 @@ export default function LandingPage() {
               </div>
             </div>
 
-            {/* Bottom row: Copyright, Contact, and Legal */}
+            {/* Bottom row: Copyright, Legal, and Contact */}
             <div className="flex flex-col md:flex-row md:items-start md:justify-between pt-6 border-t border-gray-800 gap-3">
               <div className="text-xs text-gray-500 font-light">
                 © 2026 BUYEASY. All rights reserved.
-              </div>
-              <div className="text-xs space-y-1">
-                <div className="text-gray-400 font-light">
-                  Email: <a href="mailto:info@buyeasy.it.com" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">info@buyeasy.it.com</a>
-                </div>
-                <div className="text-gray-400 font-light">
-                  Phone: <a href="tel:+13438833504" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">+1 343 883 3504</a>
-                </div>
               </div>
               <div className="text-xs">
                 <ul className="space-y-1.5">
@@ -320,6 +312,14 @@ export default function LandingPage() {
                     </a>
                   </li>
                 </ul>
+              </div>
+              <div className="text-xs space-y-1">
+                <div className="text-gray-400 font-light">
+                  Email: <a href="mailto:info@buyeasy.it.com" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">info@buyeasy.it.com</a>
+                </div>
+                <div className="text-gray-400 font-light">
+                  Phone: <a href="tel:+13438833504" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">+1 343 883 3504</a>
+                </div>
               </div>
             </div>
           </div>
