@@ -289,7 +289,7 @@ export default function LandingPage() {
               </div>
 
               {/* Right: Legal Documents */}
-              <div className="text-sm flex justify-end">
+              <div className="text-sm flex justify-end pr-16">
                 <ul className="space-y-1.5 text-left">
                   <li>
                     <a href="/legal/terms" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-light">
