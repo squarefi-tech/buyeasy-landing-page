@@ -231,7 +231,7 @@ export default function LandingPage() {
                   Unmatched Security
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
-                  Bank-grade encryption, SOC 2 compliance, and regulatory oversight ensure your funds and 
+                  Bank-grade encryption and regulatory oversight ensure your funds and 
                   data are always protected. Multi-layered security protocols safeguard every transaction. 
                   Our advanced fraud detection systems monitor all activities in real-time, while two-factor 
                   authentication and biometric verification add extra layers of protection. Your funds are 

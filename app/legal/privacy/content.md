@@ -203,7 +203,6 @@ We implement industry-standard security measures:
 - Multi-factor authentication
 - Access controls and role-based permissions
 - Regular security audits and penetration testing
-- SOC 2 compliance
 - Secure data centers with physical and logical access controls
 
 ### 6.2 Your Responsibility
