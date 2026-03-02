@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { ArrowRight, TrendingUp, Wallet, Send, Globe2, Zap, Shield, CheckCircle, FileText, Lock, Building2 } from 'lucide-react'
 import { CookieConsent } from '@/components/CookieConsent'
 import { MobileMenu } from '@/components/MobileMenu'
@@ -29,8 +30,9 @@ export default function LandingPage() {
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-xl border-b border-gray-800">
           <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
             <div className="flex items-center gap-12">
-              <a href="/" className="text-xl font-bold text-white tracking-tight hover:text-blue-400 transition-colors duration-300">
-                BUYEASY
+              <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity duration-300">
+                <Image src="/logo.png" alt="BUYEASY" width={32} height={32} className="w-8 h-8" />
+                <span className="text-xl font-bold text-white tracking-tight">BUYEASY</span>
               </a>
               <div className="hidden md:flex items-center gap-8">
                 <a href="#solutions" className="text-sm text-blue-400 hover:text-blue-300 transition-all duration-300 font-light hover:scale-105">
