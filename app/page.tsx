@@ -28,10 +28,10 @@ export default function LandingPage() {
       <div className="min-h-screen bg-black">
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-xl border-b border-gray-800">
-          <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
+          <div className="max-w-7xl mx-auto px-6 py-1.5 flex items-center justify-between">
             <div className="flex items-center gap-12">
               <a href="/" className="flex items-center hover:opacity-80 transition-opacity duration-300">
-                <Image src="/logo.svg" alt="BUYEASY" width={128} height={128} className="w-32 h-32" />
+                <Image src="/logo.svg" alt="BUYEASY" width={144} height={144} className="w-36 h-36" />
               </a>
               <div className="hidden md:flex items-center gap-8">
                 <a href="#solutions" className="text-sm text-blue-400 hover:text-blue-300 transition-all duration-300 font-light hover:scale-105">
