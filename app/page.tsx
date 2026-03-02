@@ -31,7 +31,7 @@ export default function LandingPage() {
           <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
             <div className="flex items-center gap-12">
               <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity duration-300">
-                <Image src="/logo.png" alt="BUYEASY" width={32} height={32} className="w-8 h-8" />
+                <Image src="/logo.svg" alt="BUYEASY" width={32} height={32} className="w-8 h-8" />
                 <span className="text-xl font-bold text-white tracking-tight">BUYEASY</span>
               </a>
               <div className="hidden md:flex items-center gap-8">
