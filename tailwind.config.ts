@@ -6,7 +6,12 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Inter', 'Arial', 'sans-serif'],
+        'mono': ['DM Mono', 'monospace'],
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),

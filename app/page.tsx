@@ -29,17 +29,17 @@ export default function LandingPage() {
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-xl border-b border-gray-800">
           <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
             <div className="flex items-center gap-12">
-              <a href="/" className="text-xl font-bold text-white tracking-tight hover:text-blue-400 transition-colors duration-300">
+              <a href="/" className="text-xl font-mono font-bold text-white tracking-wider hover:text-blue-400 transition-colors duration-300 uppercase">
                 BUYEASY
               </a>
               <div className="hidden md:flex items-center gap-8">
-                <a href="#solutions" className="text-sm text-blue-400 hover:text-blue-300 transition-all duration-300 font-light hover:scale-105">
+                <a href="#solutions" className="text-sm text-blue-400 hover:text-blue-300 transition-all duration-300 font-normal hover:scale-105">
                   Solutions
                 </a>
-                <a href="#why-buyeasy" className="text-sm text-blue-400 hover:text-blue-300 transition-all duration-300 font-light hover:scale-105">
+                <a href="#why-buyeasy" className="text-sm text-blue-400 hover:text-blue-300 transition-all duration-300 font-normal hover:scale-105">
                   About
                 </a>
-                <a href="#contact" className="text-sm text-blue-400 hover:text-blue-300 transition-all duration-300 font-light hover:scale-105">
+                <a href="#contact" className="text-sm text-blue-400 hover:text-blue-300 transition-all duration-300 font-normal hover:scale-105">
                   Contact
                 </a>
               </div>
@@ -48,7 +48,7 @@ export default function LandingPage() {
               <MobileMenu />
               <button
                 onClick={() => setIsLoginOpen(true)}
-                className="px-5 py-2 text-gray-300 text-sm font-light hover:text-blue-400 transition-all duration-300 hover:scale-105"
+                className="px-5 py-2 text-gray-300 text-sm font-normal hover:text-blue-400 transition-all duration-300 hover:scale-105"
               >
                 Login
               </button>
@@ -65,12 +65,12 @@ export default function LandingPage() {
         {/* Hero Section */}
         <section className="pt-24 pb-16 px-6 animate-fade-in relative overflow-hidden">
           <div className="max-w-full mx-auto px-4 relative z-10">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-[1.1] tracking-tight animate-slide-up max-w-6xl mx-auto">
+            <h1 className="text-4xl md:text-6xl font-mono font-bold text-white mb-6 leading-[1.1] tracking-wider animate-slide-up max-w-6xl mx-auto uppercase">
               Your trusted global partner<br />
               <span className="text-blue-400">for FX, payments &</span><br />
               money remittance
             </h1>
-            <p className="text-sm md:text-base text-gray-300 max-w-5xl mx-auto mb-8 leading-relaxed font-light animate-slide-up text-justify" style={{animationDelay: '0.2s'}}>
+            <p className="text-sm md:text-base text-gray-300 max-w-5xl mx-auto mb-8 leading-relaxed font-normal animate-slide-up text-justify text-container" style={{animationDelay: '0.2s'}}>
               BUYEASY is a financial services provider specializing in foreign exchange, 
               multi-currency accounts, and international money transfers. We deliver speed, security, 
               and full regulatory compliance for your business payments. Our platform enables businesses 
@@ -98,15 +98,15 @@ export default function LandingPage() {
             <div className="grid md:grid-cols-3 gap-12 text-center">
               <div className="hover:scale-110 transition-transform duration-300">
                 <div className="text-4xl font-bold text-blue-400 mb-2">30+</div>
-                <div className="text-sm text-gray-400 font-light">Currency Pairs</div>
+                <div className="text-sm text-gray-400 font-normal">Currency Pairs</div>
               </div>
               <div className="hover:scale-110 transition-transform duration-300">
                 <div className="text-4xl font-bold text-blue-400 mb-2">180+</div>
-                <div className="text-sm text-gray-400 font-light">Countries Supported</div>
+                <div className="text-sm text-gray-400 font-normal">Countries Supported</div>
               </div>
               <div className="hover:scale-110 transition-transform duration-300">
                 <div className="text-4xl font-bold text-blue-400 mb-2">24/7</div>
-                <div className="text-sm text-gray-400 font-light">Global Support</div>
+                <div className="text-sm text-gray-400 font-normal">Global Support</div>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function LandingPage() {
         {/* Solutions Section */}
         <section id="solutions" className="py-20 px-6 bg-black">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-mono font-bold text-white mb-12 tracking-wider uppercase">
               Our <span className="text-blue-400">Solutions</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
@@ -124,10 +124,10 @@ export default function LandingPage() {
                 <div className="mb-3 transform group-hover:scale-110 transition-transform duration-300">
                   <TrendingUp className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-mono font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300 uppercase tracking-wider">
                   Foreign Exchange
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-normal text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
                   Competitive FX rates for 30+ currency pairs. Convert and settle in real-time with full transparency. 
                   Our advanced trading platform provides access to institutional-grade pricing with no hidden markups. 
                   Lock in rates for future transactions with forward contracts, or take advantage of spot rates for 
@@ -142,10 +142,10 @@ export default function LandingPage() {
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
                   <Wallet className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-mono font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300 uppercase tracking-wider">
                   Multi-Currency Accounts
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-normal text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
                   Open accounts in USD, EUR, GBP, CAD and more. Access SWIFT, SEPA, ACH, CHAPS, and Faster Payments 
                   from a single dashboard. Manage all your currencies in one place with our intuitive online platform. 
                   Hold balances in multiple currencies to hedge against exchange rate fluctuations and reduce conversion 
@@ -161,10 +161,10 @@ export default function LandingPage() {
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
                   <Send className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-mono font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300 uppercase tracking-wider">
                   Send & Receive Payments
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-normal text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
                   Transact effortlessly across borders. Pay suppliers, partners, and employees in their local currency. 
                   Our payment infrastructure supports both one-time and recurring transactions, with bulk payment 
                   capabilities for processing multiple transfers simultaneously. Enjoy fast settlement times with most 
@@ -179,10 +179,10 @@ export default function LandingPage() {
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
                   <Globe2 className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-mono font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300 uppercase tracking-wider">
                   International Money Transfers
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-normal text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
                   Fast, compliant cross-border remittances to 180+ countries. Transparent fees, real-time tracking. 
                   Our extensive global network ensures your funds reach their destination quickly and securely, regardless 
                   of the corridor. Benefit from our partnerships with local banks and payment providers for optimal routing 
@@ -198,7 +198,7 @@ export default function LandingPage() {
         {/* Why BUYEASY Section */}
         <section id="why-buyeasy" className="py-20 px-6 bg-black border-t border-gray-800">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-mono font-bold text-white mb-12 tracking-wider uppercase">
               Why <span className="text-blue-400">BUYEASY</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-16">
@@ -207,10 +207,10 @@ export default function LandingPage() {
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
                   <Zap className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-mono font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300 uppercase tracking-wider">
                   Speed Matters
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-normal text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
                   Time-sensitive transactions demand instant execution. Our infrastructure processes payments 
                   in real-time, ensuring your business never misses a beat. Same-day settlements, instant FX 
                   conversions, and 24/7 availability mean you can operate on your schedule, not ours. Our 
@@ -227,10 +227,10 @@ export default function LandingPage() {
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">
                   <Shield className="text-blue-400" size={28} strokeWidth={1.5} />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
+                <h3 className="text-xl font-mono font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300 uppercase tracking-wider">
                   Unmatched Security
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-normal text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
                   Bank-grade encryption and regulatory oversight ensure your funds and 
                   data are always protected. Multi-layered security protocols safeguard every transaction. 
                   Our advanced fraud detection systems monitor all activities in real-time, while two-factor 
@@ -251,10 +251,10 @@ export default function LandingPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Left: Title */}
               <div className="lg:sticky lg:top-24">
-                <h2 className="text-3xl md:text-4xl font-bold text-white leading-[1.1] tracking-tight">
+                <h2 className="text-3xl md:text-4xl font-mono font-bold text-white leading-[1.1] tracking-wider uppercase">
                   <span className="text-blue-400">Compliance</span><br />& Trust
                 </h2>
-                <p className="text-sm text-gray-400 mt-6 leading-relaxed font-light text-justify">
+                <p className="text-sm text-gray-400 mt-6 leading-relaxed font-normal text-justify">
                   Our commitment to regulatory compliance and transparency sets us apart in the financial 
                   services industry. We maintain the highest standards of corporate governance and work 
                   closely with regulators to ensure full compliance with all applicable laws and regulations.
@@ -273,7 +273,7 @@ export default function LandingPage() {
                     <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                       Regulated Entity
                     </h3>
-                    <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                    <p className="text-gray-400 leading-relaxed font-normal text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
                       BuyEasy Technologies Limited is registered and regulated in Canada. Reg. № 1500317-2. 
                       We operate under strict regulatory oversight, ensuring that all our operations meet the 
                       highest standards of financial services provision. Our regulatory status provides you with 
@@ -286,7 +286,7 @@ export default function LandingPage() {
                     <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                       AML/KYC Compliance
                     </h3>
-                    <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                    <p className="text-gray-400 leading-relaxed font-normal text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
                       Full adherence to Anti-Money Laundering and Know Your Customer requirements. Our robust 
                       compliance framework includes continuous transaction monitoring, enhanced due diligence 
                       procedures, and regular staff training. We maintain comprehensive records and work proactively 
@@ -299,7 +299,7 @@ export default function LandingPage() {
                     <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                       Segregated Accounts
                     </h3>
-                    <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                    <p className="text-gray-400 leading-relaxed font-normal text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
                       Client funds held in segregated accounts with tier-1 banking partners. Your money is 
                       kept separate from our operational funds, providing an additional layer of protection. 
                       This safeguarding arrangement ensures that your funds remain secure and accessible even 
@@ -315,10 +315,10 @@ export default function LandingPage() {
         {/* CTA Section */}
         <section id="contact" className="py-20 px-6 bg-black border-t border-gray-800">
           <div className="max-w-4xl mx-auto text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-mono font-bold text-white mb-6 tracking-wider uppercase">
               Ready to streamline your<br /><span className="text-blue-400">global payments?</span>
             </h2>
-            <p className="text-base text-gray-400 mb-8 font-light leading-relaxed max-w-3xl mx-auto text-justify">
+            <p className="text-base text-gray-400 mb-8 font-normal leading-relaxed max-w-3xl mx-auto text-justify">
               Schedule a 15-minute consultation with our team to discuss your business needs. 
               Fill out the form below and one of our specialists will contact you shortly to 
               understand your requirements and demonstrate how BUYEASY can transform your 
@@ -335,28 +335,28 @@ export default function LandingPage() {
             <div className="grid md:grid-cols-2 gap-8 mb-6">
               {/* Left: License Info */}
               <div className="text-sm space-y-1.5">
-                <p className="text-gray-400 font-light">
+                <p className="text-gray-400 font-normal">
                   <strong className="text-blue-400 font-semibold text-base">BUYEASY TECHNOLOGY CO., LTD.</strong>
                 </p>
-                <p className="text-gray-400 font-light">2 Robert Speck Pkwy, Suite 750, Mississauga, ON L4Z 1H8, Canada</p>
-                <p className="text-gray-400 font-light">MSB License Number: M23877619</p>
+                <p className="text-gray-400 font-normal">2 Robert Speck Pkwy, Suite 750, Mississauga, ON L4Z 1H8, Canada</p>
+                <p className="text-gray-400 font-normal">MSB License Number: M23877619</p>
               </div>
 
               {/* Right: Legal Documents */}
               <div className="text-sm">
                 <ul className="space-y-1.5">
                   <li>
-                    <a href="/legal/terms" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-light">
+                    <a href="/legal/terms" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-normal">
                       Terms of Service
                     </a>
                   </li>
                   <li>
-                    <a href="/legal/privacy" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-light">
+                    <a href="/legal/privacy" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-normal">
                       Privacy Policy
                     </a>
                   </li>
                   <li>
-                    <a href="/legal/cookies" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-light">
+                    <a href="/legal/cookies" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-normal">
                       Cookie Policy
                     </a>
                   </li>
@@ -366,14 +366,14 @@ export default function LandingPage() {
 
             {/* Bottom row: Copyright and Contact */}
             <div className="flex flex-col md:flex-row md:items-start md:justify-between pt-6 border-t border-gray-800 gap-3">
-              <div className="text-xs text-gray-500 font-light">
+              <div className="text-xs text-gray-500 font-normal">
                 © 2026 BUYEASY. All rights reserved.
               </div>
               <div className="text-xs space-y-1">
-                <div className="text-gray-400 font-light">
+                <div className="text-gray-400 font-normal">
                   Email: <a href="mailto:info@buyeasy.it.com" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">info@buyeasy.it.com</a>
                 </div>
-                <div className="text-gray-400 font-light">
+                <div className="text-gray-400 font-normal">
                   Phone: <a href="tel:+13438833504" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">+1 343 883 3504</a>
                 </div>
               </div>
