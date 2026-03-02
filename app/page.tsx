@@ -99,15 +99,15 @@ export default function LandingPage() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-3 gap-12 text-center">
               <div className="hover:scale-110 transition-transform duration-300">
-                <div className="text-4xl font-bold text-blue-400 mb-2">30+</div>
+                <div className="text-4xl font-bold text-blue-400 mb-2" style={{letterSpacing: '-0.11em'}}>30+</div>
                 <div className="text-sm text-gray-400 font-light">Currency Pairs</div>
               </div>
               <div className="hover:scale-110 transition-transform duration-300">
-                <div className="text-4xl font-bold text-blue-400 mb-2">180+</div>
+                <div className="text-4xl font-bold text-blue-400 mb-2" style={{letterSpacing: '-0.11em'}}>180+</div>
                 <div className="text-sm text-gray-400 font-light">Countries Supported</div>
               </div>
               <div className="hover:scale-110 transition-transform duration-300">
-                <div className="text-4xl font-bold text-blue-400 mb-2">24/7</div>
+                <div className="text-4xl font-bold text-blue-400 mb-2" style={{letterSpacing: '-0.11em'}}>24/7</div>
                 <div className="text-sm text-gray-400 font-light">Global Support</div>
               </div>
             </div>
