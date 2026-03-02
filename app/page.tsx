@@ -342,9 +342,8 @@ export default function LandingPage() {
                 <p className="text-gray-400 font-light">
                   <strong className="text-blue-400 font-semibold text-base">BUYEASY TECHNOLOGY CO., LTD.</strong>
                 </p>
-                <p className="text-gray-400 font-light">Money Services Business (MSB)</p>
-                <p className="text-gray-400 font-light">License Number: M23877619</p>
-                <p className="text-gray-400 font-light mt-4">2 Robert Speck Pkwy, Suite 750, Mississauga, ON L4Z 1H8, Canada</p>
+                <p className="text-gray-400 font-light">2 Robert Speck Pkwy, Suite 750, Mississauga, ON L4Z 1H8, Canada</p>
+                <p className="text-gray-400 font-light">MSB License Number: M23877619</p>
               </div>
 
               {/* Right: Legal Documents */}
