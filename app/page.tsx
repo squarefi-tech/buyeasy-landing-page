@@ -31,7 +31,7 @@ export default function LandingPage() {
           <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
             <div className="flex items-center gap-12">
               <a href="/" className="flex items-center hover:opacity-80 transition-opacity duration-300">
-                <Image src="/logo.svg" alt="BUYEASY" width={64} height={64} className="w-16 h-16" />
+                <Image src="/logo.svg" alt="BUYEASY" width={128} height={128} className="w-32 h-32" />
               </a>
               <div className="hidden md:flex items-center gap-8">
                 <a href="#solutions" className="text-sm text-blue-400 hover:text-blue-300 transition-all duration-300 font-light hover:scale-105">
@@ -64,7 +64,7 @@ export default function LandingPage() {
         </nav>
 
         {/* Hero Section */}
-        <section className="pt-24 pb-16 px-6 animate-fade-in relative overflow-hidden">
+        <section className="pt-40 pb-16 px-6 animate-fade-in relative overflow-hidden">
           <div className="max-w-6xl mx-auto px-4 relative z-10">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-[1.1] tracking-tight animate-slide-up text-left">
               Your trusted global partner<br />
