@@ -348,8 +348,8 @@ export default function LandingPage() {
               </div>
 
               {/* Right: Legal Documents */}
-              <div className="text-sm md:text-right">
-                <ul className="space-y-1.5 md:inline-block md:text-left">
+              <div className="text-sm">
+                <ul className="space-y-1.5">
                   <li>
                     <a href="/legal/terms" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-light">
                       Terms of Service
