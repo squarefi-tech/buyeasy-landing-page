@@ -28,7 +28,7 @@ export default function LandingPage() {
       <div className="min-h-screen bg-black">
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-xl border-b border-gray-800">
-          <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+          <div className="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
             <div className="flex items-center gap-12">
               <a href="/" className="flex items-center hover:opacity-80 transition-opacity duration-300">
                 <Image src="/logo.svg" alt="BUYEASY" width={128} height={128} className="w-32 h-32" />
@@ -64,7 +64,7 @@ export default function LandingPage() {
         </nav>
 
         {/* Hero Section */}
-        <section className="pt-40 pb-16 px-6 animate-fade-in relative overflow-hidden">
+        <section className="pt-56 pb-16 px-6 animate-fade-in relative overflow-hidden">
           <div className="max-w-6xl mx-auto px-4 relative z-10">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-[1.1] tracking-tight animate-slide-up text-left">
               Your trusted global partner<br />
