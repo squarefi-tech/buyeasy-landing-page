@@ -262,7 +262,7 @@ export default function LandingPage() {
         </section>
 
         {/* CTA Section */}
-        <section id="contact" className="py-20 px-6 bg-black border-t border-gray-800">
+        <section id="contact" className="pt-32 pb-20 px-6 bg-black border-t border-gray-800">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 tracking-tight">
               Ready to streamline your<br /><span className="text-blue-400">global payments?</span>
