@@ -278,24 +278,19 @@ export default function LandingPage() {
         <footer className="bg-black text-gray-400 py-12 px-6 border-t border-gray-800">
           <div className="max-w-7xl mx-auto">
             {/* Main Footer Content */}
-            <div className="mb-6">
-              {/* License Info */}
-              <div className="text-sm space-y-1.5 mb-6">
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              {/* Left: License Info */}
+              <div className="text-sm space-y-1.5">
                 <p className="text-gray-400 font-light">
                   <strong className="text-blue-400 font-semibold text-base">BUYEASY TECHNOLOGY CO., LTD.</strong>
                 </p>
                 <p className="text-gray-400 font-light">2 Robert Speck Pkwy, Suite 750, Mississauga, ON L4Z 1H8, Canada</p>
                 <p className="text-gray-400 font-light">MSB License Number: M23877619</p>
               </div>
-            </div>
 
-            {/* Bottom row: Copyright and Contact */}
-            <div className="flex flex-col md:flex-row md:items-start md:justify-between pt-6 border-t border-gray-800 gap-3">
-              <div className="text-xs text-gray-500 font-light">
-                © 2026 BUYEASY. All rights reserved.
-              </div>
-              <div className="text-xs space-y-1">
-                <ul className="space-y-1.5 mb-2">
+              {/* Right: Legal Documents */}
+              <div className="text-sm">
+                <ul className="space-y-1.5">
                   <li>
                     <a href="/legal/terms" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-light">
                       Terms of Service
@@ -312,6 +307,15 @@ export default function LandingPage() {
                     </a>
                   </li>
                 </ul>
+              </div>
+            </div>
+
+            {/* Bottom row: Copyright and Contact */}
+            <div className="flex flex-col md:flex-row md:items-start md:justify-between pt-6 border-t border-gray-800 gap-3">
+              <div className="text-xs text-gray-500 font-light">
+                © 2026 BUYEASY. All rights reserved.
+              </div>
+              <div className="text-xs space-y-1">
                 <div className="text-gray-400 font-light">
                   Email: <a href="mailto:info@buyeasy.it.com" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">info@buyeasy.it.com</a>
                 </div>
