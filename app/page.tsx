@@ -372,17 +372,17 @@ export default function LandingPage() {
             </div>
 
             {/* Bottom row: Copyright and Contact */}
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between pt-8 border-t border-gray-800 gap-4">
+            <div className="flex flex-col md:flex-row md:items-start md:justify-between pt-8 border-t border-gray-800 gap-4">
               <div className="text-xs text-gray-500 font-light">
                 © 2026 BUYEASY. All rights reserved.
               </div>
-              <div className="text-xs space-x-6">
-                <span className="text-gray-400 font-light">
+              <div className="text-xs space-y-2">
+                <div className="text-gray-400 font-light">
                   Email: <a href="mailto:info@buyeasy.it.com" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">info@buyeasy.it.com</a>
-                </span>
-                <span className="text-gray-400 font-light">
+                </div>
+                <div className="text-gray-400 font-light">
                   Phone: <a href="tel:+13438833504" className="text-blue-400 hover:text-blue-300 transition-colors duration-300">+1 343 883 3504</a>
-                </span>
+                </div>
               </div>
             </div>
           </div>
