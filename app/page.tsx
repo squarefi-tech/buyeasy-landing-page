@@ -348,9 +348,6 @@ export default function LandingPage() {
 
               {/* Right: Legal Documents */}
               <div className="text-sm md:text-right">
-                <h4 className="text-blue-400 font-semibold mb-4 uppercase tracking-wider text-xs">
-                  Legal
-                </h4>
                 <ul className="space-y-2 md:inline-block md:text-left">
                   <li>
                     <a href="/legal/terms" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 font-light">
