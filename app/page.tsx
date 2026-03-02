@@ -73,13 +73,7 @@ export default function LandingPage() {
               money remittance
             </h1>
             <p className="text-sm md:text-base text-gray-300 max-w-5xl mb-8 leading-relaxed font-light animate-slide-up text-left" style={{animationDelay: '0.2s'}}>
-              BUYEASY is a financial services provider specializing in foreign exchange, 
-              multi-currency accounts, and international money transfers. We deliver speed, security, 
-              and full regulatory compliance for your business payments. Our platform enables businesses 
-              of all sizes to manage their global finances efficiently, with access to competitive exchange 
-              rates, transparent pricing, and dedicated support from our experienced team. Whether you're 
-              making your first international payment or managing complex multi-currency operations, 
-              BUYEASY provides the tools and expertise you need to succeed in the global marketplace.
+              BUYEASY specializes in foreign exchange, multi-currency accounts, and international money transfers. We deliver speed, security, and full regulatory compliance with competitive rates, transparent pricing, and dedicated expert support for your global business payments.
             </p>
             <div>
               <a
@@ -130,12 +124,7 @@ export default function LandingPage() {
                   Foreign Exchange
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
-                  Competitive FX rates for 30+ currency pairs. Convert and settle in real-time with full transparency. 
-                  Our advanced trading platform provides access to institutional-grade pricing with no hidden markups. 
-                  Lock in rates for future transactions with forward contracts, or take advantage of spot rates for 
-                  immediate settlements. Benefit from our deep liquidity pools and execute large volume trades with 
-                  minimal slippage. Our expert dealers are available around the clock to provide market insights and 
-                  help you optimize your foreign exchange strategy.
+                  Access institutional-grade FX rates for 30+ currency pairs with real-time conversion and full transparency. Lock in rates with forward contracts or use spot rates for immediate settlements. Expert dealers available 24/7 to optimize your foreign exchange strategy.
                 </p>
               </div>
 
@@ -148,13 +137,7 @@ export default function LandingPage() {
                   Multi-Currency Accounts
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
-                  Open accounts in USD, EUR, GBP, CAD and more. Access SWIFT, SEPA, ACH, CHAPS, and Faster Payments 
-                  from a single dashboard. Manage all your currencies in one place with our intuitive online platform. 
-                  Hold balances in multiple currencies to hedge against exchange rate fluctuations and reduce conversion 
-                  costs. Receive local account details for major currencies, making it easier for your international 
-                  clients to pay you. Set up automated currency conversions and scheduled transfers to streamline your 
-                  treasury operations. Enjoy competitive interest rates on your currency holdings and full visibility 
-                  of all your transactions in real-time.
+                  Hold and manage USD, EUR, GBP, CAD and more from a single dashboard. Access SWIFT, SEPA, ACH, CHAPS, and Faster Payments with local account details. Hedge against exchange rate fluctuations, automate conversions, and enjoy competitive interest rates with full transaction visibility.
                 </p>
               </div>
 
@@ -167,12 +150,7 @@ export default function LandingPage() {
                   Send & Receive Payments
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
-                  Transact effortlessly across borders. Pay suppliers, partners, and employees in their local currency. 
-                  Our payment infrastructure supports both one-time and recurring transactions, with bulk payment 
-                  capabilities for processing multiple transfers simultaneously. Enjoy fast settlement times with most 
-                  payments arriving within 24 hours. Track every payment in real-time with detailed transaction history 
-                  and automatic notifications. Set up beneficiary templates for frequent recipients to streamline future 
-                  payments. Implement approval workflows for enhanced security and control over your corporate payments.
+                  Pay suppliers, partners, and employees in their local currency with fast settlement (within 24 hours). Support for one-time, recurring, and bulk payments with real-time tracking. Beneficiary templates and approval workflows ensure security and streamline your corporate payment operations.
                 </p>
               </div>
 
@@ -185,12 +163,7 @@ export default function LandingPage() {
                   International Money Transfers
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
-                  Fast, compliant cross-border remittances to 180+ countries. Transparent fees, real-time tracking. 
-                  Our extensive global network ensures your funds reach their destination quickly and securely, regardless 
-                  of the corridor. Benefit from our partnerships with local banks and payment providers for optimal routing 
-                  and competitive pricing. All transfers are fully compliant with international regulations including AML 
-                  and sanctions screening. Receive instant confirmation and detailed receipts for every transaction. 
-                  Access dedicated support for urgent transfers and complex payment scenarios.
+                  Send compliant cross-border remittances to 180+ countries with transparent fees and real-time tracking. Our global network ensures fast, secure delivery with optimal routing and competitive pricing. Full AML compliance and dedicated support for urgent transfers.
                 </p>
               </div>
             </div>
@@ -213,14 +186,7 @@ export default function LandingPage() {
                   Speed Matters
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
-                  Time-sensitive transactions demand instant execution. Our infrastructure processes payments 
-                  in real-time, ensuring your business never misses a beat. Same-day settlements, instant FX 
-                  conversions, and 24/7 availability mean you can operate on your schedule, not ours. Our 
-                  automated systems eliminate manual processing delays, while our global network of banking 
-                  partners ensures optimal routing for every transaction. Whether you're paying a supplier 
-                  in Asia or receiving funds from Europe, our platform delivers the speed your business demands. 
-                  Experience the difference that true real-time processing makes to your cash flow and operational 
-                  efficiency.
+                  Real-time payment processing with same-day settlements and instant FX conversions. Our automated infrastructure operates 24/7, eliminating manual delays and ensuring optimal routing through our global banking network for maximum speed and efficiency.
                 </p>
               </div>
 
@@ -233,14 +199,7 @@ export default function LandingPage() {
                   Unmatched Security
                 </h3>
                 <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
-                  Bank-grade encryption and regulatory oversight ensure your funds and 
-                  data are always protected. Multi-layered security protocols safeguard every transaction. 
-                  Our advanced fraud detection systems monitor all activities in real-time, while two-factor 
-                  authentication and biometric verification add extra layers of protection. Your funds are 
-                  held in segregated accounts with tier-1 banking institutions, providing additional peace 
-                  of mind. We maintain the highest standards of data privacy and undergo regular security 
-                  audits by independent third parties. Trust is earned through consistent security practices, 
-                  and we're committed to protecting your business every step of the way.
+                  Bank-grade encryption, multi-factor authentication, and real-time fraud detection protect every transaction. Your funds are held in segregated accounts with tier-1 banking institutions. Regular independent security audits ensure the highest standards of data privacy and protection.
                 </p>
               </div>
             </div>
@@ -257,9 +216,7 @@ export default function LandingPage() {
                   <span className="text-blue-400">Compliance</span><br />& Trust
                 </h2>
                 <p className="text-sm text-gray-400 mt-6 leading-relaxed font-light text-justify">
-                  Our commitment to regulatory compliance and transparency sets us apart in the financial 
-                  services industry. We maintain the highest standards of corporate governance and work 
-                  closely with regulators to ensure full compliance with all applicable laws and regulations.
+                  Our commitment to regulatory compliance and transparency sets us apart. We maintain the highest standards of corporate governance and work closely with regulators to ensure full compliance.
                 </p>
               </div>
 
@@ -276,10 +233,7 @@ export default function LandingPage() {
                       Regulated Entity
                     </h3>
                     <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
-                      BuyEasy Technologies Limited is registered and regulated in Canada. Reg. № 1500317-2. 
-                      We operate under strict regulatory oversight, ensuring that all our operations meet the 
-                      highest standards of financial services provision. Our regulatory status provides you with 
-                      the confidence that your transactions are handled by a legitimate, compliant financial institution.
+                      BuyEasy Technologies Limited is registered and regulated in Canada (Reg. № 1500317-2). We operate under strict regulatory oversight, ensuring all operations meet the highest standards of financial services provision.
                     </p>
                   </div>
 
@@ -289,10 +243,7 @@ export default function LandingPage() {
                       AML/KYC Compliance
                     </h3>
                     <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
-                      Full adherence to Anti-Money Laundering and Know Your Customer requirements. Our robust 
-                      compliance framework includes continuous transaction monitoring, enhanced due diligence 
-                      procedures, and regular staff training. We maintain comprehensive records and work proactively 
-                      to prevent financial crime while ensuring a smooth onboarding experience for legitimate businesses.
+                      Full AML/KYC compliance with continuous transaction monitoring and enhanced due diligence. We maintain comprehensive records and proactively prevent financial crime while ensuring a smooth onboarding experience for legitimate businesses.
                     </p>
                   </div>
 
@@ -302,10 +253,7 @@ export default function LandingPage() {
                       Segregated Accounts
                     </h3>
                     <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
-                      Client funds held in segregated accounts with tier-1 banking partners. Your money is 
-                      kept separate from our operational funds, providing an additional layer of protection. 
-                      This safeguarding arrangement ensures that your funds remain secure and accessible even 
-                      in unlikely adverse scenarios, giving you complete peace of mind.
+                      Client funds held in segregated accounts with tier-1 banking partners, kept separate from operational funds. This safeguarding arrangement ensures your funds remain secure and accessible, providing complete peace of mind.
                     </p>
                   </div>
                 </div>
@@ -321,10 +269,7 @@ export default function LandingPage() {
               Ready to streamline your<br /><span className="text-blue-400">global payments?</span>
             </h2>
             <p className="text-base text-gray-400 mb-8 font-light leading-relaxed max-w-3xl mx-auto text-justify">
-              Schedule a 15-minute consultation with our team to discuss your business needs. 
-              Fill out the form below and one of our specialists will contact you shortly to 
-              understand your requirements and demonstrate how BUYEASY can transform your 
-              international payment operations.
+              Schedule a 15-minute consultation to discuss your business needs. Fill out the form below and our specialist will contact you to demonstrate how BUYEASY can transform your international payment operations.
             </p>
           </div>
           <ContactForm />
