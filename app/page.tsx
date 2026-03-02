@@ -111,9 +111,9 @@ export default function LandingPage() {
         {/* Solutions Section */}
         <section id="solutions" className="py-20 px-6 bg-black">
           <div className="max-w-6xl mx-auto">
-            <div className="mb-12">
-              <Image src="/our-solutions.png" alt="Our Solutions" width={300} height={60} className="h-auto" />
-            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 tracking-tight">
+              Our <span className="text-blue-400">Solutions</span>
+            </h2>
             <div className="grid md:grid-cols-2 gap-8">
               {/* FX */}
               <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
@@ -173,9 +173,9 @@ export default function LandingPage() {
         {/* Why BUYEASY Section */}
         <section id="why-buyeasy" className="py-20 px-6 bg-black border-t border-gray-800">
           <div className="max-w-6xl mx-auto">
-            <div className="mb-12">
-              <Image src="/why-buyeasy.png" alt="Why buyeasy" width={300} height={60} className="h-auto" />
-            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 tracking-tight">
+              Why <span className="text-blue-400">BUYEASY</span>
+            </h2>
             <div className="grid md:grid-cols-2 gap-16">
               {/* Speed Matters */}
               <div className="group p-6 rounded-3xl border border-gray-800 hover:border-blue-400 transition-all duration-500 hover:bg-gray-900/50">
@@ -212,9 +212,9 @@ export default function LandingPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Left: Title */}
               <div className="lg:sticky lg:top-24">
-                <div className="mb-6">
-                  <Image src="/compliance-trust.png" alt="Compliance & Trust" width={350} height={80} className="h-auto" />
-                </div>
+                <h2 className="text-3xl md:text-4xl font-bold text-white leading-[1.1] tracking-tight">
+                  <span className="text-blue-400">Compliance</span><br />& Trust
+                </h2>
                 <p className="text-sm text-gray-400 mt-6 leading-relaxed font-light text-justify">
                   Our commitment to regulatory compliance and transparency sets us apart. We maintain the highest standards of corporate governance and work closely with regulators to ensure full compliance.
                 </p>
