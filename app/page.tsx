@@ -31,7 +31,7 @@ export default function LandingPage() {
           <div className="max-w-7xl mx-auto px-6 py-1 flex items-center justify-between">
             <div className="flex items-center gap-12">
               <a href="/" className="flex items-center hover:opacity-80 transition-opacity duration-300">
-                <Image src="/logo.svg" alt="BUYEASY" width={144} height={144} className="w-36 h-36" />
+                <Image src="/logo.svg" alt="BUYEASY" width={144} height={144} className="w-20 h-20 md:w-36 md:h-36" />
               </a>
               <div className="hidden md:flex items-center gap-8">
                 <a href="#solutions" className="text-sm text-blue-400 hover:text-blue-300 transition-all duration-300 font-light hover:scale-105">
@@ -46,16 +46,16 @@ export default function LandingPage() {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <MobileMenu />
+              <MobileMenu onLoginOpen={() => setIsLoginOpen(true)} />
               <button
                 onClick={() => setIsLoginOpen(true)}
-                className="px-5 py-2 text-gray-300 text-sm font-light hover:text-blue-400 transition-all duration-300 hover:scale-105"
+                className="hidden md:inline-block px-5 py-2 text-gray-300 text-sm font-light hover:text-blue-400 transition-all duration-300 hover:scale-105"
               >
                 Login
               </button>
               <a
                 href="#contact"
-                className="px-6 py-2.5 bg-blue-500 text-white text-sm font-semibold rounded-full hover:bg-blue-400 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50"
+                className="px-4 py-2 md:px-6 md:py-2.5 bg-blue-500 text-white text-xs md:text-sm font-semibold rounded-full hover:bg-blue-400 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/50"
               >
                 Book a call
               </a>
@@ -64,11 +64,11 @@ export default function LandingPage() {
         </nav>
 
         {/* Hero Section */}
-        <section className="pt-56 pb-16 px-6 animate-fade-in relative overflow-hidden">
+        <section className="pt-32 md:pt-56 pb-16 px-6 animate-fade-in relative overflow-hidden">
           <div className="max-w-6xl mx-auto px-4 relative z-10">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-[1.1] tracking-tight animate-slide-up text-left">
-              Your trusted global partner<br />
-              <span className="text-blue-400">for FX, payments &</span><br />
+              Your trusted global partner<br className="hidden md:inline" />{' '}
+              <span className="text-blue-400">for FX, payments &</span><br className="hidden md:inline" />{' '}
               money remittance
             </h1>
             <p className="text-sm md:text-base text-gray-300 max-w-5xl mb-8 leading-relaxed font-light animate-slide-up text-left" style={{animationDelay: '0.2s'}}>
@@ -122,7 +122,7 @@ export default function LandingPage() {
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   Foreign Exchange
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 md:text-justify">
                   Access institutional-grade FX rates for 30+ currency pairs with real-time conversion and full transparency. Lock in rates with forward contracts or use spot rates for immediate settlements. Expert dealers available 24/7 to optimize your foreign exchange strategy.
                 </p>
               </div>
@@ -135,7 +135,7 @@ export default function LandingPage() {
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   Multi-Currency Accounts
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 md:text-justify">
                   Hold and manage USD, EUR, GBP, CAD and more from a single dashboard. Access SWIFT, SEPA, ACH, CHAPS, and Faster Payments with local account details. Hedge against exchange rate fluctuations, automate conversions, and enjoy competitive interest rates with full transaction visibility.
                 </p>
               </div>
@@ -148,7 +148,7 @@ export default function LandingPage() {
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   Send & Receive Payments
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 md:text-justify">
                   Pay suppliers, partners, and employees in their local currency with fast settlement (within 24 hours). Support for one-time, recurring, and bulk payments with real-time tracking. Beneficiary templates and approval workflows ensure security and streamline your corporate payment operations.
                 </p>
               </div>
@@ -161,7 +161,7 @@ export default function LandingPage() {
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   International Money Transfers
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 md:text-justify">
                   Send compliant cross-border remittances to 180+ countries with transparent fees and real-time tracking. Our global network ensures fast, secure delivery with optimal routing and competitive pricing. Full AML compliance and dedicated support for urgent transfers.
                 </p>
               </div>
@@ -184,7 +184,7 @@ export default function LandingPage() {
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   Speed Matters
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 md:text-justify">
                   Real-time payment processing with same-day settlements and instant FX conversions. Our automated infrastructure operates 24/7, eliminating manual delays and ensuring optimal routing through our global banking network for maximum speed and efficiency.
                 </p>
               </div>
@@ -197,7 +197,7 @@ export default function LandingPage() {
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                   Unmatched Security
                 </h3>
-                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 md:text-justify">
                   Bank-grade encryption, multi-factor authentication, and real-time fraud detection protect every transaction. Your funds are held in segregated accounts with tier-1 banking institutions. Regular independent security audits ensure the highest standards of data privacy and protection.
                 </p>
               </div>
@@ -214,7 +214,7 @@ export default function LandingPage() {
                 <h2 className="text-4xl font-bold text-white leading-[1.1] tracking-tight italic">
                   <span className="text-blue-400">Compliance</span><br />& Trust
                 </h2>
-                <p className="text-sm text-gray-400 mt-6 leading-relaxed font-light text-justify">
+                <p className="text-sm text-gray-400 mt-6 leading-relaxed font-light md:text-justify">
                   Our commitment to regulatory compliance and transparency sets us apart. We maintain the highest standards of corporate governance and work closely with regulators to ensure full compliance.
                 </p>
               </div>
@@ -231,7 +231,7 @@ export default function LandingPage() {
                     <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                       Regulated Entity
                     </h3>
-                    <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                    <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 md:text-justify">
                       BuyEasy Technologies Limited is registered and regulated in Canada (Reg. № 1500317-2). We operate under strict regulatory oversight, ensuring all operations meet the highest standards of financial services provision.
                     </p>
                   </div>
@@ -241,7 +241,7 @@ export default function LandingPage() {
                     <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                       AML/KYC Compliance
                     </h3>
-                    <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                    <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 md:text-justify">
                       Full AML/KYC compliance with continuous transaction monitoring and enhanced due diligence. We maintain comprehensive records and proactively prevent financial crime while ensuring a smooth onboarding experience for legitimate businesses.
                     </p>
                   </div>
@@ -251,7 +251,7 @@ export default function LandingPage() {
                     <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
                       Segregated Accounts
                     </h3>
-                    <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 text-justify">
+                    <p className="text-gray-400 leading-relaxed font-light text-sm group-hover:text-gray-300 transition-colors duration-300 md:text-justify">
                       Client funds held in segregated accounts with tier-1 banking partners, kept separate from operational funds. This safeguarding arrangement ensures your funds remain secure and accessible, providing complete peace of mind.
                     </p>
                   </div>
@@ -267,7 +267,7 @@ export default function LandingPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 tracking-tight">
               Ready to streamline your<br /><span className="text-blue-400">global payments?</span>
             </h2>
-            <p className="text-base text-gray-400 mb-8 font-light leading-relaxed max-w-3xl mx-auto text-justify">
+            <p className="text-base text-gray-400 mb-8 font-light leading-relaxed max-w-3xl mx-auto md:text-justify">
               Schedule a 15-minute consultation to discuss your business needs. Fill out the form below and our specialist will contact you to demonstrate how BUYEASY can transform your international payment operations.
             </p>
           </div>
@@ -310,7 +310,7 @@ export default function LandingPage() {
               </div>
 
               {/* Right: Empty for balance */}
-              <div></div>
+              <div className="hidden md:block"></div>
             </div>
 
             {/* Bottom row: Copyright and Contact */}

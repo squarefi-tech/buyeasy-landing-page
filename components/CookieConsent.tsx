@@ -32,8 +32,8 @@ export function CookieConsent() {
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 shadow-2xl">
-      <div className="max-w-6xl mx-auto px-6 py-6">
-        <div className="flex items-start justify-between gap-6">
+      <div className="max-w-6xl mx-auto px-6 py-6 relative">
+        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-6">
           <div className="flex-1">
             <h3 className="text-lg font-bold text-gray-900 mb-2">
               We use cookies
@@ -62,7 +62,7 @@ export function CookieConsent() {
           </div>
           <button
             onClick={dismiss}
-            className="flex-shrink-0 p-1 text-gray-400 hover:text-gray-600 transition-colors"
+            className="absolute top-4 right-4 md:static flex-shrink-0 p-1 text-gray-400 hover:text-gray-600 transition-colors"
             aria-label="Close"
           >
             <X size={20} />

@@ -26,7 +26,7 @@ export function ForgotPasswordModal({ isOpen, onClose, onBack }: ForgotPasswordM
         className="absolute inset-0 bg-black/80 backdrop-blur-xl"
         onClick={onClose}
       />
-      <div className="relative bg-gray-900 rounded-[2rem] shadow-2xl w-full max-w-md p-10 border border-gray-800 animate-slide-up">
+      <div className="relative bg-gray-900 rounded-[2rem] shadow-2xl w-full max-w-md p-6 md:p-10 border border-gray-800 animate-slide-up">
         <button
           onClick={onClose}
           className="absolute top-6 right-6 text-gray-400 hover:text-blue-400 transition-colors duration-300"
