@@ -34,7 +34,7 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="max-w-2xl mx-auto">
-      <div className="bg-gray-900/50 rounded-[2rem] border border-gray-800 p-10 shadow-lg hover:border-blue-400/50 transition-all duration-500">
+      <div className="bg-gray-900/50 rounded-[2rem] border border-gray-800 p-6 md:p-10 shadow-lg hover:border-blue-400/50 transition-all duration-500">
         <div className="space-y-6">
           <div>
             <label htmlFor="fullName" className="block text-sm font-medium text-white mb-3">

@@ -20,7 +20,7 @@ export default function PrivacyPage() {
       </nav>
       
       <main className="max-w-5xl mx-auto px-6 py-12">
-        <article className="prose prose-invert max-w-none prose-headings:text-white prose-p:text-gray-400 prose-p:text-justify prose-strong:text-white prose-li:text-gray-400 prose-a:text-blue-400 prose-a:no-underline hover:prose-a:text-blue-300 hover:prose-a:underline prose-a:transition-colors">
+        <article className="prose prose-invert max-w-none prose-headings:text-white prose-p:text-gray-400 md:prose-p:text-justify prose-strong:text-white prose-li:text-gray-400 prose-a:text-blue-400 prose-a:no-underline hover:prose-a:text-blue-300 hover:prose-a:underline prose-a:transition-colors">
           <h1 className="text-4xl font-bold text-white mb-2">{data.title}</h1>
           {data.lastUpdated && (
             <p className="text-sm text-gray-500 mb-8">Last updated: {data.lastUpdated}</p>
